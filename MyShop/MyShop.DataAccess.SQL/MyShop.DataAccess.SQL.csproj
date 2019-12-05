@@ -89,6 +89,10 @@
     <Compile Include="Migrations\201912042322566_AddCustomers.Designer.cs">
       <DependentUpon>201912042322566_AddCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912051104306_AddOrders.cs" />
+    <Compile Include="Migrations\201912051104306_AddOrders.Designer.cs">
+      <DependentUpon>201912051104306_AddOrders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -112,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912042322566_AddCustomers.resx">
       <DependentUpon>201912042322566_AddCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912051104306_AddOrders.resx">
+      <DependentUpon>201912051104306_AddOrders.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

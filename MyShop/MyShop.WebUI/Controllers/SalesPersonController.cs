@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace MyShop.WebUI.Controllers
 {
-    [Authorize(Roles = "Admin")]
-    public class AdminController : Controller
+    [Authorize(Roles = "SalesPerson")]
+    public class SalesPersonController : Controller
     {
-        // GET: Admin
+        // GET: SalesPerson
         public ActionResult Index()
         {
             return View();
